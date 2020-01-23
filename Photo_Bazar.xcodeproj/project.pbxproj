@@ -12,6 +12,11 @@
 		E804F0C423D96AD80015B02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E804F0C223D96AD80015B02C /* Main.storyboard */; };
 		E804F0C623D96AD90015B02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E804F0C523D96AD90015B02C /* Assets.xcassets */; };
 		E804F0C923D96AD90015B02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E804F0C723D96AD90015B02C /* LaunchScreen.storyboard */; };
+		E804F0D823D96CD20015B02C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804F0D723D96CD20015B02C /* AppDelegate.swift */; };
+		E804F0DA23D96CD20015B02C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804F0D923D96CD20015B02C /* ViewController.swift */; };
+		E804F0DD23D96CD20015B02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E804F0DB23D96CD20015B02C /* Main.storyboard */; };
+		E804F0E223D96CD30015B02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E804F0E023D96CD30015B02C /* LaunchScreen.storyboard */; };
+		E804F0E823D96EDD0015B02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E804F0C523D96AD90015B02C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		E804F0C523D96AD90015B02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E804F0C823D96AD90015B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E804F0CA23D96AD90015B02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E804F0D523D96CD20015B02C /* Photo_Bazar_Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo_Bazar_Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E804F0D723D96CD20015B02C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E804F0D923D96CD20015B02C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E804F0DC23D96CD20015B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E804F0E123D96CD30015B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E804F0E323D96CD30015B02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E804F0B823D96AD80015B02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E804F0D223D96CD20015B02C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		E804F0B223D96AD80015B02C = {
 			isa = PBXGroup;
 			children = (
+				E804F0E723D96EC30015B02C /* SharedAssets */,
 				E804F0BD23D96AD80015B02C /* Photo_Bazar */,
+				E804F0D623D96CD20015B02C /* Photo_Bazar_Admin */,
 				E804F0BC23D96AD80015B02C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				E804F0BB23D96AD80015B02C /* Photo_Bazar.app */,
+				E804F0D523D96CD20015B02C /* Photo_Bazar_Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				E804F0BE23D96AD80015B02C /* AppDelegate.swift */,
 				E804F0C023D96AD80015B02C /* ViewController.swift */,
 				E804F0C223D96AD80015B02C /* Main.storyboard */,
-				E804F0C523D96AD90015B02C /* Assets.xcassets */,
 				E804F0C723D96AD90015B02C /* LaunchScreen.storyboard */,
 				E804F0CA23D96AD90015B02C /* Info.plist */,
 			);
 			path = Photo_Bazar;
+			sourceTree = "<group>";
+		};
+		E804F0D623D96CD20015B02C /* Photo_Bazar_Admin */ = {
+			isa = PBXGroup;
+			children = (
+				E804F0D723D96CD20015B02C /* AppDelegate.swift */,
+				E804F0D923D96CD20015B02C /* ViewController.swift */,
+				E804F0DB23D96CD20015B02C /* Main.storyboard */,
+				E804F0E023D96CD30015B02C /* LaunchScreen.storyboard */,
+				E804F0E323D96CD30015B02C /* Info.plist */,
+			);
+			path = Photo_Bazar_Admin;
+			sourceTree = "<group>";
+		};
+		E804F0E723D96EC30015B02C /* SharedAssets */ = {
+			isa = PBXGroup;
+			children = (
+				E804F0C523D96AD90015B02C /* Assets.xcassets */,
+			);
+			path = SharedAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = E804F0BB23D96AD80015B02C /* Photo_Bazar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E804F0D423D96CD20015B02C /* Photo_Bazar_Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E804F0E423D96CD30015B02C /* Build configuration list for PBXNativeTarget "Photo_Bazar_Admin" */;
+			buildPhases = (
+				E804F0D123D96CD20015B02C /* Sources */,
+				E804F0D223D96CD20015B02C /* Frameworks */,
+				E804F0D323D96CD20015B02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photo_Bazar_Admin;
+			productName = Photo_Bazar_Admin;
+			productReference = E804F0D523D96CD20015B02C /* Photo_Bazar_Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = "Mahmud Mostofa";
 				TargetAttributes = {
 					E804F0BA23D96AD80015B02C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E804F0D423D96CD20015B02C = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				E804F0BA23D96AD80015B02C /* Photo_Bazar */,
+				E804F0D423D96CD20015B02C /* Photo_Bazar_Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E804F0D323D96CD20015B02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E804F0E223D96CD30015B02C /* LaunchScreen.storyboard in Resources */,
+				E804F0E823D96EDD0015B02C /* Assets.xcassets in Resources */,
+				E804F0DD23D96CD20015B02C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				E804F0C123D96AD80015B02C /* ViewController.swift in Sources */,
 				E804F0BF23D96AD80015B02C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E804F0D123D96CD20015B02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E804F0DA23D96CD20015B02C /* ViewController.swift in Sources */,
+				E804F0D823D96CD20015B02C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E804F0C823D96AD90015B02C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E804F0DB23D96CD20015B02C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E804F0DC23D96CD20015B02C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E804F0E023D96CD30015B02C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E804F0E123D96CD30015B02C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +408,40 @@
 			};
 			name = Release;
 		};
+		E804F0E523D96CD30015B02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mostofa.Photo-Bazar-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E804F0E623D96CD30015B02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Photo_Bazar_Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mostofa.Photo-Bazar-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +459,15 @@
 			buildConfigurations = (
 				E804F0CE23D96AD90015B02C /* Debug */,
 				E804F0CF23D96AD90015B02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E804F0E423D96CD30015B02C /* Build configuration list for PBXNativeTarget "Photo_Bazar_Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E804F0E523D96CD30015B02C /* Debug */,
+				E804F0E623D96CD30015B02C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
